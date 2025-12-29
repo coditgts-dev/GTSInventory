@@ -1,0 +1,45 @@
+[23-Dec-2025 14:08:39 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_status' in 'SELECT' in /home/mymapyve/test.mymartlk.com/inventory/config/Db.php:40
+Stack trace:
+#0 /home/mymapyve/test.mymartlk.com/inventory/config/Db.php(40): mysqli->query()
+#1 /home/mymapyve/test.mymartlk.com/inventory/config/Db.php(53): Db->query()
+#2 /home/mymapyve/test.mymartlk.com/inventory/users/users_list.php(6): Db->select()
+#3 {main}
+  thrown in /home/mymapyve/test.mymartlk.com/inventory/config/Db.php on line 40
+[23-Dec-2025 14:08:42 Asia/Colombo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'login_status' in 'SELECT' in /home/mymapyve/test.mymartlk.com/inventory/config/Db.php:40
+Stack trace:
+#0 /home/mymapyve/test.mymartlk.com/inventory/config/Db.php(40): mysqli->query()
+#1 /home/mymapyve/test.mymartlk.com/inventory/config/Db.php(53): Db->query()
+#2 /home/mymapyve/test.mymartlk.com/inventory/users/users_list.php(6): Db->select()
+#3 {main}
+  thrown in /home/mymapyve/test.mymartlk.com/inventory/config/Db.php on line 40
+[23-Dec-2025 20:05:16 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 50
+[23-Dec-2025 20:05:29 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 50
+[23-Dec-2025 20:06:44 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 50
+[23-Dec-2025 20:06:46 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 50
+[23-Dec-2025 20:07:00 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 50
+[23-Dec-2025 20:09:32 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:09:33 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:09:36 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:12:30 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:12:36 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:14:13 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:15:21 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:15:28 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:17:43 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:18:16 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:25:43 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:25:48 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:25:52 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:25:58 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:26:27 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:26:43 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[23-Dec-2025 20:26:47 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[24-Dec-2025 15:18:30 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[24-Dec-2025 15:18:44 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[24-Dec-2025 15:18:46 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 54
+[24-Dec-2025 15:46:06 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 59
+[24-Dec-2025 15:49:36 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 59
+[24-Dec-2025 15:49:39 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 59
+[24-Dec-2025 15:50:33 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 59
+[24-Dec-2025 17:05:56 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 59
+[25-Dec-2025 17:35:59 Asia/Colombo] PHP Warning:  Undefined variable $lowStockCount in /home/mymapyve/test.mymartlk.com/inventory/header.php on line 59

@@ -1,0 +1,181 @@
+/* =====================
+   GLOBAL
+===================== */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #f5f6fa;
+}
+
+/* =====================
+   MAIN CONTAINER
+===================== */
+.container-login {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* =====================
+   LEFT SIDE – IMAGE
+===================== */
+.left-side {
+    flex: 1;
+    background: linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+    url('../images/loginbg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* =====================
+   TITLE OVER IMAGE
+===================== */
+.title-overlay {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.title-box {
+    padding: 30px 40px;
+    backdrop-filter: blur(8px);
+    background: rgba(255,255,255,0.08);
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.title-box h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.title-box h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* =====================
+   RIGHT SIDE
+===================== */
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f9a825, #ff6f00);
+}
+
+/* =====================
+   LOGIN CARD
+===================== */
+.login-container {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255,255,255,0.96);
+    padding: 40px 35px;
+    border-radius: 18px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+.login-container h3 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* =====================
+   FORM
+===================== */
+.form-control {
+    border-radius: 10px;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 0 0.2rem rgba(255,152,0,.25);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    opacity: 0.95;
+}
+
+/* =====================
+   ALERT
+===================== */
+.alert {
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* =====================
+   MOBILE DESIGN
+===================== */
+@media (max-width: 768px) {
+
+    .container-login {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .left-side {
+        height: 42vh;
+        flex: none;
+    }
+
+    .title-box {
+        padding: 20px 25px;
+    }
+
+    .title-box h1 {
+        font-size: 2.2rem;
+    }
+
+    .title-box h2 {
+        font-size: 1.1rem;
+    }
+
+    .right-side {
+        padding: 25px 15px;
+        align-items: flex-start;
+    }
+
+    .login-container {
+        margin-top: -45px;
+        max-width: 100%;
+        padding: 30px 22px;
+    }
+}
+/* Add this in your CSS */
+.pulse {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 rgba(220,53,69, 0.4); }
+    50% { transform: scale(1.05); box-shadow: 0 0 10px rgba(220,53,69, 0.6); }
+    100% { transform: scale(1); box-shadow: 0 0 0 rgba(220,53,69, 0.4); }
+}
